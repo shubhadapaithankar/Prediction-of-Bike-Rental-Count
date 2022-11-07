@@ -1,9 +1,7 @@
 import numpy as np
 import pandas as pd
 from flask import Flask, request, jsonify, render_template
-#import matplotlib.pyplot as plt
-import seaborn as sns
-
+import seaborn as sns  #import matplotlib.pyplot as plt
 import pickle
 import model
 
@@ -21,10 +19,14 @@ def predictionpage():
 @app.route('/predict', methods=['POST'])
 def predict():
 
-    input_values = [float(i) for i in request.form.values()]  #fetching the input values
-    df_row=[[i] for i in input_values]                        #This will form the input row
-    df_keys = [i for i in request.form.keys()]    #fetching the input keys
-    rescaling_cols=['temp', 'hum', 'windspeed']          #declaring list of keys which has to be rescaled
+#fetching the input values
+    input_values = [float(i) for i in request.form.values()]  
+ #This will form the input row    
+    df_row=[[i] for i in input_values]
+#fetching the input keys                       
+    df_keys = [i for i in request.form.keys()]   
+#declaring list of keys which has to be rescaled 
+    rescaling_cols=['temp', 'hum', 'windspeed']          
 
     #Declaring dictionary to convert into dataframe in the next step.
     html_dict = {df_keys[i]: df_row[i] for i in range(len(df_keys))}
