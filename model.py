@@ -7,7 +7,7 @@ warnings.filterwarnings('ignore')
 
 
 #Reading the dataset
-df=pd.read_csv('day.csv')
+df=pd.read_csv('hour.csv')
 
 # Converting date to Pandas datetime format
 df['dteday'] = pd.to_datetime(df['dteday'])
