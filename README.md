@@ -45,7 +45,7 @@ We analyze metrics that account for continuous output variables because this is 
 * [__Mean Absolute Error__](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.mean_absolute_error.html)
 
 
-There are a large number of machine learning models used in the prediction of the demand for __Washington Bikes__. Below are the models that were used for prediction.
+There are a large number of machine learning models used in the prediction of the demand for `Bikes`. Below are the models that were used for prediction.
 
 * [__Deep Neural Networks__](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPRegressor.html)
 * [__K Nearest Neighbors__](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html)
@@ -74,7 +74,7 @@ There are a large number of machine learning models used in the prediction of th
 1. Sai Manasa Yadlapalli(SJSU ID: 015999659)
 * Email: saimanasa.yadlapalli@sjsu.edu 
 2. Shubhada Sanjay Paithankar( SJSU ID: 016013283)
-Email: shubhadasanjay.paithankar@sjsu.edu
+* Email: shubhadasanjay.paithankar@sjsu.edu
 
 
 
