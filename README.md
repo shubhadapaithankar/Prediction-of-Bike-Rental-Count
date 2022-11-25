@@ -70,6 +70,11 @@ There are a large number of machine learning models used in the prediction of th
 * __Exploratory Data Analysis (EDA)__ was performed to ensure that there is a good understanding of different features and their contribution to the output variable respectively. 
 * The best machine learning models were able to generate a __mean absolute error (MAE)__ of about __23__ which is really good considering the scale of the problem at hand.
 
+### Team information  :
+1. Sai Manasa Yadlapalli(SJSU ID: 015999659)
+* Email: saimanasa.yadlapalli@sjsu.edu 
+2. Shubhada Sanjay Paithankar( SJSU ID: 016013283)
+Email: shubhadasanjay.paithankar@sjsu.edu
 
 
 
