@@ -70,11 +70,6 @@ gb = GradientBoostingRegressor()
 #Fitting model with training data
 gb.fit(X_train, y_train)
 
-
-
-
 #Saving model to disk #wb=write bytes
-
-
 import pickle
 pickle.dump(gb, open('model.pkl', 'wb'))

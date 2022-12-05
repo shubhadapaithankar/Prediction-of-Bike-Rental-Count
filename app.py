@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 from flask import Flask, request, jsonify, render_template
-import seaborn as sns  #import matplotlib.pyplot as plt
+import seaborn as sns  
 import pickle
 import model
 
