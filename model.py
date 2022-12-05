@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import warnings
+
 warnings.filterwarnings('ignore')
 
 
@@ -61,13 +62,19 @@ X_train=df_train
 
 X_train=X_train[['Best', 'Neutral', 'spring', 'temp', 'winter', 'summer', 'hum', 'Jul', 'Sep', 'windspeed', 'yr', 'holiday']]
 
-from sklearn.linear_model import LinearRegression
-regressor=LinearRegression()
+from sklearn.ensemble import GradientBoostingRegressor
+
+# Create the gradient booster model
+gb = GradientBoostingRegressor()
 
 #Fitting model with training data
-regressor.fit(X_train, y_train)
+gb.fit(X_train, y_train)
+
+
+
 
 #Saving model to disk #wb=write bytes
-import pickle
-pickle.dump(regressor, open('model.pkl', 'wb'))
 
+
+import pickle
+pickle.dump(gb, open('model.pkl', 'wb'))
