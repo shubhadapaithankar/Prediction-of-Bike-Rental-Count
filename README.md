@@ -11,7 +11,7 @@ To ensure that individuals can acquire rides when needed, a variety of bike firm
 
 ### Architectural Diagram:
 
-### A![255](https://user-images.githubusercontent.com/99461999/204049640-2b8e443d-55e3-4c18-9308-84f3e3376067.png)
+### ![255](https://user-images.githubusercontent.com/99461999/204049640-2b8e443d-55e3-4c18-9308-84f3e3376067.png)
 
 ## Problem Statement: 
 
