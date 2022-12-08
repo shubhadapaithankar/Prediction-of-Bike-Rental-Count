@@ -13,8 +13,12 @@ def home():
     return render_template('home.html')
 
 @app.route('/index')
-def predictionpage():
+def shuffle():
     return render_template('index.html')
+
+@app.route('/shuffle')
+def predictionpage():
+    return render_template('shuffle.html')
 
 @app.route('/predict', methods=['POST'])
 def predict():
@@ -88,7 +92,7 @@ def predict():
     output= round(prediction[0], 2)
 
     #Output sent to the html page
-    return render_template('index.html', prediction_text='Prediction: \n {} cycle rents.'.format(output))
+    return render_template('index.html', prediction_text='Prediction: \n {} bike rents.'.format(output))
 
 if __name__=="__main__":
     app.run(debug=True)
