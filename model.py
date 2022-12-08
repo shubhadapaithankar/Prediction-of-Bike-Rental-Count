@@ -32,8 +32,6 @@ df=df.drop('dteday', axis=1)
 df=df.drop(['casual', 'registered'],axis=1)
 df=df.drop('atemp',axis=1,)
 
-#Creating Dummy variables
-
 def dummies(x,dataframe):
     temp = pd.get_dummies(dataframe[x], drop_first = True)
     dataframe = pd.concat([dataframe, temp], axis = 1)
