@@ -4,16 +4,39 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-        body {
+        
+         body {
             background-image: url({{ url_for('static', filename='img/cycle5.jpg') }});
-            background-size: cover;
+            background-size: cover;           
+            font-family: Arial, sans-serif;
         }
-
+        .about1 {
+            width: 45%;
+            height: 425px;
+            border-radius: 2px;
+            margin-left: 5%;
+            margin-top: 6%;
+            background-color: transparent;
+            backdrop-filter: blur(17px);
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+         }
+        img {
+            margin-bottom: -32px;
+            padding: 2%;
+        }
+        .about2 {
+            padding: 3%;
+            margin-left: 2%;
+        }
         a:link {
               color: blue;
-              background-color: transparent;
-              text-decoration: none;
-                }
+              padding: 2%;
+              border-style: none;
+              backdrop-filter: blur(17px);
+              box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+              border-radius: 2px rgb(0, 0, 0);
+              cursor: pointer;
+          }
 
         a:visited {
               color: blue;
@@ -33,14 +56,6 @@
               text-decoration: underline;
                 }
 
-        .media{
-            position: absolute;
-            top: 10%
-            left: 50%;
-            transform: translate(83%, 35%);
-        }
-
-       
         li{
             list-style: none;
             margin: 10px 30px;
@@ -66,15 +81,16 @@
 
 <body>
 
-<div class="about-section">
-    <center><h1 style="color:blue">Bike Rental Service.</h1></center>
-    <center><h3><font color="black"><i>The ideal two-wheel vehicles for you.</i></font></h3></center>
-    <center><p><h3><font color="black">Bike Rental Service is here to redefine the way you travel! Rent a bike on an hourly, daily, weekly or even a monthly basis.</font></h3></p></center>
-    <center><p><h3><font color="black">Likewise, we provide long-term leasing options for businesses that use two-wheelers for last-mile deliveries..</font></h3></p></center>
-    <center><p><h3><font color="black">Along with that we are planning to expand Bike Rental Service to different countries and are looking for partners.</font></h3></p></center>
-    <center><p><h2><font color="blue"><a href="index">To review the statistics for our business, click here.</a></font></h2></p></center>
+<div class="about1">
+    <div class="about2">
+    <h1 style="color:rgba(27, 27, 106, 0.812)"> <img src="static/img/image.png" alt ="bike" width="60" height="60">Rental Bike Prediction</h1>
+    <h4><font color="black"><i>The ideal two-wheel vehicles for you.</i></font></h4>
+    <p><h4><font color="black">Bike Rental Service is here to redefine the way you travel! <br/>Rent a bike on an hourly, daily, weekly or even a monthly basis.</font></h4></p>
+    <p><h4><font color="black">Likewise, we provide long-term leasing options <br/>for businesses that use two-wheelers for last-mile deliveries..</font></h4></p>
+    <p><h4><font color="black">Along with that we are planning to expand Bike Rental Service to <br/>different countries and are looking for partners.</font></h4></p> 
+    <p><h4><font color="blue"><a href="index">Click here to review the statistics for our business.</a></font></h4></p>
     <br></br>
-
+</div>
 </div>
 
 
