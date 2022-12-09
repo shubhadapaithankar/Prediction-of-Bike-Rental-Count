@@ -17,6 +17,7 @@ https://cmpe255-rental-bike-prediction.herokuapp.com/
 <p float="left">
 <img src="https://user-images.githubusercontent.com/87613567/206582383-c0cf8a49-066d-4e22-a2a9-8d6cfe2e61d7.png" width="330" height="190">
 <img src="https://user-images.githubusercontent.com/87613567/206582650-c01fabbe-9035-41a4-99b4-a4e48e48acb2.png" width="330" height="190">
+<img src="https://user-images.githubusercontent.com/99461999/206800037-c75ad8f4-e964-4366-a8a0-f13760fab756.png" width="330" height="190">
 <img src="https://user-images.githubusercontent.com/87613567/206582947-04171cfb-ac30-476e-bb1a-824421bab276.png" width="330" height="190">
 </p>
 
