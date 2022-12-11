@@ -95,6 +95,11 @@ There are a large number of machine learning models used in the prediction of th
 ### Future Scope:
 Since the current dataset only includes data for Washington, D.C., our future goals would be to forecast the number of bikes that will be rented and to shuffle those rentals based on any place and region across the entire United States.
 
+### Project Documents:
+
+* [__Project_Report/Document__](https://github.com/shubhadapaithankar/Prediction-of-Bike-Rental-Count/blob/main/Prediction-of-Bike-Rental-Count-Report-Tema20.pdf)
+* [__Colab_Notebook__](https://github.com/shubhadapaithankar/Prediction-of-Bike-Rental-Count/blob/main/Rental_bikes_count_Prediction_Model_Comparison.ipynb)
+
 ### Reference:
 1) https://www.kaggle.com/datasets/marklvl/bike-sharing-dataset?search=bike+demand+Washington
 2) https://flask.palletsprojects.com/en/2.2.x/
