@@ -106,6 +106,7 @@ Since the current dataset only includes data for Washington, D.C., our future go
 3) https://www.youtube.com/watch?v=4_EO4RwABbA
 
 
+### Task Distribution:
 
-
+<img width="566" alt="Screen Shot 2022-12-12 at 1 03 07 PM" src="https://user-images.githubusercontent.com/99461999/207153939-258badc6-3a4f-4914-8faf-b1255ca7891d.png">
 
